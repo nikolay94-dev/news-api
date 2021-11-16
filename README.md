@@ -6,7 +6,8 @@
 Также в .env нужно добавить ссылку на api для получения новостей:
 NEWS_BASE_URI=
 NEWS_API_KEY=
-5. php artisan key:generate
-6. php artisan migrate
-
+4. php artisan key:generate
+5. php artisan migrate
+6. Для парсинга статей необходимо выполнить команду:
+    php artisan update-news
 
